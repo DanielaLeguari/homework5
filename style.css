@@ -1,30 +1,58 @@
-.secao-portfolio{
-    background-color: #FFDD99;
+:root {
+    --cor-secao-portfolio: #ffdd99;
+    --cor-secao-about-us: #d74680;
+    --cor-secao-get-in-touch: #3c5499;
 }
 
-.secao-about-us{
-    background-color: #4932a5;/*D74680*/
+
+/* secoes portfolio, about-us, get-in-touch*/
+
+.secao-portfolio {
+    background-color: var(--cor-secao-portfolio);
+}
+
+.secao-about-us {
+    background-color: var(--cor-secao-about-us);
     color: #FFFFFF;
-    
 }
 
-.lista-botao {
+.secao-get-in-touch {
+    background-color: var(--cor-secao-get-in-touch);
+    color:#FFFFFF;
+}
+
+.lista-botao-portfolio {
     background-color: #E5C37F;
 }
 
-.nome-cliente{
+.nome-cliente {
     font-weight: bold;
     font-size: 1.2rem;
 }
 
-.funcao-cliente{
-color: #FFDD99;
+.funcao-cliente {
+    color: #FFDD99;
 }
 
-.depoimento{
+.depoimento {
     font-style: italic;
 }
 
 .secao-titulo {
     font-weight: bold;
+}
+
+.secao-get-in-touch-form{
+    background-color: #273A71;
+    border-color: #273A71;
+    color: #FFFFFF; 
+    
+}
+.secao-get-in-touch-form::placeholder{
+  color: #FFFFFF;  
+}
+
+.secao-get-in-touch-form:focus-within{
+    background-color: #273A71;
+    color: #FFFFFF;
 }

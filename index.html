@@ -16,7 +16,7 @@
 
 
 
-  <!--section portfolio-->
+  <!--secao portfolio-->
   <section class="container-fluid secao-portfolio pt-5 pb-5 ">
     <h1 class="text-center secao-titulo">OUR PORTFOLIO</h1>
     <div class="container d-flex justify-content-center">
@@ -29,9 +29,9 @@
     <div class="container d-flex justify-content-center mb-5">
       <div class="row row-cols-auto">
         <div class="col"><button type="button" class="btn btn-light">ALL</button></div>
-        <div class="col"><button type="button" class="btn lista-botao">WEB</button></div>
-        <div class="col"><button type="button" class="btn lista-botao">APPS</button></div>
-        <div class="col"><button type="button" class="btn lista-botao">ICONS</button></div>
+        <div class="col"><button type="button" class="btn lista-botao-portfolio">WEB</button></div>
+        <div class="col"><button type="button" class="btn lista-botao-portfolio">APPS</button></div>
+        <div class="col"><button type="button" class="btn lista-botao-portfolio">ICONS</button></div>
       </div>
     </div>
     <!--imagens-->
@@ -72,14 +72,14 @@
   <section class="container-fluid secao-about-us pt-5 pb-5">
     <div class="container ">
       <h1 class="text-center secao-titulo ">WHAT POEPLE SAY ABOUT US</h1>
-      <div class="container d-flex justify-content-center">
+      <div class="container d-flex justify-content-center pt-2">
         <p class="text-center w-50">Our clients love us! </p>
       </div>
     </div>
-    <div class="container mt-3 mb-3">
+    <div class="container mt-3 mb-3 pt-4">
       <div class="row">
         <div class="col-sm">
-          <div class="row">
+          <div class="row pt-2">
             <div class="col col-lg-3 text-end"><img src="./img/Base.png" alt=""></div>
             <div class="col">
               <p class="depoimento">“Nullam dapibus blandit orci,
@@ -93,7 +93,7 @@
           </div>
         </div>
         <div class="col-sm">
-          <div class="row">
+          <div class="row pt-2">
             <div class="col col-lg-3 text-end"><img src="./img/base3.png" alt=""></div>
             <div class="col">
               <p class="depoimento">Vivamus luctus urna sed urna ultricies
@@ -109,7 +109,7 @@
       </div>
       <div class="row">
         <div class="col-sm">
-          <div class="row">
+          <div class="row pt-2">
             <div class="col col-lg-3 text-end"><img src="./img/Base1.png" alt=""></div>
             <div class="col">
               <p class="depoimento">“Vivamus luctus urna sed urna ultricies
@@ -123,7 +123,7 @@
           </div>
         </div>
         <div class="col-sm">
-          <div class="row">
+          <div class="row pt-2">
             <div class="col col-lg-3 text-end"><img src="./img/base2.png" alt=""></div>
             <div class="col">
               <p class="depoimento">"Phasellus non purus vel arcu tempor
@@ -139,11 +139,44 @@
         </div>
       </div>
     </div>
+  </section>
+  <!--secao Get in touch-->
+  <section class="container-fluid secao-get-in-touch pt-5 pb-5">
+    <div class="container ">
+      <h1 class="text-center secao-titulo ">GET IN TOUCH</h1>
+      <div class="container d-flex justify-content-center pt-2">
+        <address class="text-center">1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel:
+          (202) 456-1111</address>
+      </div>
+    </div>
 
-
-
-
-
+    <!--formulario-->
+    <form>
+      <div class="container mt-5">
+        <div class="row g-3">
+          <div class="col-sm">
+            <input type="text" class="form-control secao-get-in-touch-form" placeholder="Your Name" aria-label="Your name" required>
+          </div>
+          <div class="col-sm">
+            <input type="e-mail" class="form-control secao-get-in-touch-form" placeholder="Your Email" aria-label="Your Email" required>
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control secao-get-in-touch-form" id="exampleFormControlTextarea1" rows="3" placeholder="Your Message"
+              required></textarea>
+          </div>
+        </div>
+      </div>
+      <!--botao-->
+      <div class="row mt-5">
+        <div class="col">
+          <div class="container text-center">
+            <div class="row">
+              <div class="col"><button type="button" class="btn btn-info text-white p-2">SEND MESSAGE</button></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
 
   </section>
 
