@@ -25,6 +25,10 @@
     background-color: #E5C37F;
 }
 
+.lista-botao-portfolio:hover{
+    background-color: #FFFFFF;
+}
+
 .secao-portfolio-botao-load {
     background-color: #17C2A4;
     color: #FFFFFF;
