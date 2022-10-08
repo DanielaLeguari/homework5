@@ -7,6 +7,7 @@
   <title>Bootstrap demo</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -16,20 +17,21 @@
 
 
   <!--section portfolio-->
-  <section class="container-fluid" style="background-color: #ffda6a">
-    <h1 class="text-center">Our Portfolio</h1>
+  <section class="container-fluid secao-portfolio pt-5 pb-5 ">
+    <h1 class="text-center secao-titulo">OUR PORTFOLIO</h1>
     <div class="container d-flex justify-content-center">
-      <p class="text-center w-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, eos natus praesentium
+      <p class="text-center w-50 mt-3 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, eos natus
+        praesentium
         expedita alias excepturi
         recusandae mollitia molestias voluptas delectus </p>
     </div>
     <!--botoes-->
-    <div class="container d-flex justify-content-center">
+    <div class="container d-flex justify-content-center mb-5">
       <div class="row row-cols-auto">
         <div class="col"><button type="button" class="btn btn-light">ALL</button></div>
-        <div class="col"><button type="button" class="btn btn-light">WEB</button></div>
-        <div class="col"><button type="button" class="btn btn-light">APPS</button></div>
-        <div class="col"><button type="button" class="btn btn-light">ICONS</button></div>
+        <div class="col"><button type="button" class="btn lista-botao">WEB</button></div>
+        <div class="col"><button type="button" class="btn lista-botao">APPS</button></div>
+        <div class="col"><button type="button" class="btn lista-botao">ICONS</button></div>
       </div>
     </div>
     <!--imagens-->
@@ -55,9 +57,9 @@
         </div>
       </div>
     </div>
-    <div class="row">
+    <!--botao-->
+    <div class="row mt-5">
       <div class="col">
-        <!--botao-->
         <div class="container text-center">
           <div class="row">
             <div class="col"><button type="button" class="btn btn-success p-2">LOAD MORE PROJECTS</button></div>
@@ -65,7 +67,78 @@
         </div>
       </div>
     </div>
-
+  </section>
+  <!--secao WHAT POEPLE SAY ABOUT US-->
+  <section class="container-fluid secao-about-us pt-5 pb-5">
+    <div class="container ">
+      <h1 class="text-center secao-titulo ">WHAT POEPLE SAY ABOUT US</h1>
+      <div class="container d-flex justify-content-center">
+        <p class="text-center w-50">Our clients love us! </p>
+      </div>
+    </div>
+    <div class="container mt-3 mb-3">
+      <div class="row">
+        <div class="col-sm">
+          <div class="row">
+            <div class="col col-lg-3 text-end"><img src="./img/Base.png" alt=""></div>
+            <div class="col">
+              <p class="depoimento">“Nullam dapibus blandit orci,
+                viverra gravida dui lobortis eget. Maecenas
+                fringilla urna eu nisl scelerisque.”</p>
+              <div class="mt-3 mb-3">
+                <div class="nome-cliente">Chanel Iman</div>
+                <div class="funcao-cliente">CEO of Pinterest</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="row">
+            <div class="col col-lg-3 text-end"><img src="./img/base3.png" alt=""></div>
+            <div class="col">
+              <p class="depoimento">Vivamus luctus urna sed urna ultricies
+                ac tempor dui sagittis. In condimentum
+                facilisis porta.”</p>
+              <div class="mt-3 mb-3">
+                <div class="nome-cliente">ADRIANA LIMA</div>
+                <div class="funcao-cliente">Founder of Instagram</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm">
+          <div class="row">
+            <div class="col col-lg-3 text-end"><img src="./img/Base1.png" alt=""></div>
+            <div class="col">
+              <p class="depoimento">“Vivamus luctus urna sed urna ultricies
+                ac tempor dui sagittis. In condimentum
+                facilisis porta.”</p>
+              <div class="mt-3 mb-3">
+                <div class="nome-cliente">ANNE HATHAWAY</div>
+                <div class="funcao-cliente">Lead Designer at Behance</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="row">
+            <div class="col col-lg-3 text-end"><img src="./img/base2.png" alt=""></div>
+            <div class="col">
+              <p class="depoimento">"Phasellus non purus vel arcu tempor
+                commodo. Fusce semper, purus vel luctus
+                molestie, risus sem cursus neque.”
+              </p>
+              <div class="mt-3 mb-3">
+                <div class="nome-cliente">EMMA STONE</div>
+                <div class="funcao-cliente">Co-Founder of Shazam</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
 

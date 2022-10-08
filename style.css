@@ -1,0 +1,30 @@
+.secao-portfolio{
+    background-color: #FFDD99;
+}
+
+.secao-about-us{
+    background-color: #4932a5;/*D74680*/
+    color: #FFFFFF;
+    
+}
+
+.lista-botao {
+    background-color: #E5C37F;
+}
+
+.nome-cliente{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.funcao-cliente{
+color: #FFDD99;
+}
+
+.depoimento{
+    font-style: italic;
+}
+
+.secao-titulo {
+    font-weight: bold;
+}
