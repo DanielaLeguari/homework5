@@ -18,11 +18,16 @@
 
 .secao-get-in-touch {
     background-color: var(--cor-secao-get-in-touch);
-    color:#FFFFFF;
+    color: #FFFFFF;
 }
 
 .lista-botao-portfolio {
     background-color: #E5C37F;
+}
+
+.secao-portfolio-botao-load {
+    background-color: #17C2A4;
+    color: #FFFFFF;
 }
 
 .nome-cliente {
@@ -42,17 +47,34 @@
     font-weight: bold;
 }
 
-.secao-get-in-touch-form{
+.secao-get-in-touch-form {
     background-color: #273A71;
     border-color: #273A71;
-    color: #FFFFFF; 
-    
-}
-.secao-get-in-touch-form::placeholder{
-  color: #FFFFFF;  
+    color: #FFFFFF;
+
 }
 
-.secao-get-in-touch-form:focus-within{
+.secao-get-in-touch-form::placeholder {
+    color: #FFFFFF;
+}
+
+.secao-get-in-touch-form:focus-within {
     background-color: #273A71;
     color: #FFFFFF;
+}
+
+footer {
+    background-color: #344B8E;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.links-rede-social {
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+.links-rede-social:hover {
+    color: #30BAE7;
 }
