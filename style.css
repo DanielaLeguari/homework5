@@ -36,6 +36,10 @@ body {
     margin-bottom: 80px;
 }
 
+.top-buffer {
+    margin-top: 30px;
+}
+
 /* secao services-we-provide */
 
 .services-we-provide {
@@ -61,12 +65,14 @@ body {
 
 .meet-our-beautiful-team {
     background-color: var(--cor-secao-meet-our-beautiful-team);
+    color: #3C4761;
 }
 
 /* secao we-got-skills */
 
 .we-got-skills {
     background-color: var(--cor-secao-we-got-skills);
+    color: #3C4761;
 }
 
 /* secoes portfolio, about-us, get-in-touch*/
