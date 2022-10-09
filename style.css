@@ -40,6 +40,9 @@ body {
     background-color: var(--cor-secao-services-we-provide);
 }
 
+.services-we-provide-border {
+    width: 100px;
+}
 
 /* secoes portfolio, about-us, get-in-touch*/
 
