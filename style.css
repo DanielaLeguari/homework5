@@ -7,6 +7,7 @@
     --cor-secao-top-header: #87509c;
     --cor-secao-services-we-provide: #17C2A4;
     --cor-secao-meet-our-beautiful-team: #E7F1F8;
+    --cor-secao-we-got-skills: #FFFF;
 }
 
 body {
@@ -41,14 +42,31 @@ body {
     background-color: var(--cor-secao-services-we-provide);
 }
 
-.services-we-provide-border {
+.border-style-1 {
     width: 100px;
+}
+
+.border-style-2 {
+    width: 100px;
+    border-color: #BDD1DF !important;
+    opacity: 0.75 !important;
+}
+
+.border-style-3 {
+    width: 100px;
+    border-color: #DFE8ED !important;
 }
 
 /* secao meet-our-beautiful-team */
 
 .meet-our-beautiful-team {
     background-color: var(--cor-secao-meet-our-beautiful-team);
+}
+
+/* secao we-got-skills */
+
+.we-got-skills {
+    background-color: var(--cor-secao-we-got-skills);
 }
 
 /* secoes portfolio, about-us, get-in-touch*/
