@@ -5,6 +5,7 @@
     --cor-secao-about-us: #d74680;
     --cor-secao-get-in-touch: #3c5499;
     --cor-secao-top-header: #87509c;
+    --cor-secao-services-we-provide: #17C2A4;
 }
 
 body {
@@ -21,12 +22,22 @@ body {
     background-color: #eb7d4b;
 }
 
+.border-bottom {
+    border-bottom: 4px solid rgba(0, 0, 0, 0.15) !important;
+}
+
 .botao-nav:hover {
     background-color: #643A79;
 }
 
 .bottom-buffer {
-    margin-bottom: 70px;
+    margin-bottom: 80px;
+}
+
+/* secao services-we-provide */
+
+.services-we-provide {
+    background-color: var(--cor-secao-services-we-provide);
 }
 
 
