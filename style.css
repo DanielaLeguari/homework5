@@ -6,6 +6,7 @@
     --cor-secao-get-in-touch: #3c5499;
     --cor-secao-top-header: #87509c;
     --cor-secao-services-we-provide: #17C2A4;
+    --cor-secao-meet-our-beautiful-team: #E7F1F8;
 }
 
 body {
@@ -42,6 +43,12 @@ body {
 
 .services-we-provide-border {
     width: 100px;
+}
+
+/* secao meet-our-beautiful-team */
+
+.meet-our-beautiful-team {
+    background-color: var(--cor-secao-meet-our-beautiful-team);
 }
 
 /* secoes portfolio, about-us, get-in-touch*/
