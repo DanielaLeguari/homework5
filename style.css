@@ -1,7 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
+
 :root {
     --cor-secao-portfolio: #ffdd99;
     --cor-secao-about-us: #d74680;
     --cor-secao-get-in-touch: #3c5499;
+    --cor-secao-top-header: #87509c;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* secao top-header */
+
+.top-header {
+    background-color: var(--cor-secao-top-header);
+}
+
+.top-header-button {
+    background-color: #eb7d4b;
+}
+
+.botao-nav:hover {
+    background-color: #643A79;
+}
+
+.bottom-buffer {
+    margin-bottom: 70px;
 }
 
 
