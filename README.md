@@ -10,9 +10,4 @@
 
 
 
-#Responsivo
 
-
-
-
-![](./imagens/homework5-responsivo.png)
